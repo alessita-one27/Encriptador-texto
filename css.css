@@ -1,0 +1,160 @@
+/*importacion de fuente */
+@font-face {
+    font-family: 'Inter';
+    src: href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background: rgba(243, 245, 252, 1);
+    
+}
+
+.pagina {
+    display: flex; 
+    flex-direction: row; 
+    width: 100%;
+    
+    
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column; 
+    
+    width: 100%; 
+    max-width: 600px;
+    margin: 20px;
+}
+.container1_exclamacion{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    margin-top: 348px;
+    gap: 5px;
+    
+}
+
+.container1_exclamacion_img{
+    width: 15px;
+    height: 15px;
+    display: flex;
+}
+.container1_exclamacion_texto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
+.container1_botones{
+    display: flex;
+    flex-direction: row;
+}
+
+.texuser{
+
+    width: 100%;
+    height: 500%;
+    top: 168px;
+    left: 240px;
+    gap: 0px;
+    opacity: 0px;
+    border: none;
+    resize: none;
+    overflow: hidden;
+
+}
+
+.container2 {
+     /* Agrega esta línea */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
+    margin-left: 28%;
+}
+.container2 p {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #999;
+}
+
+.logo {
+    
+    width: 120px; 
+    height: 48px; 
+    gap: 40px; 
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.rectangulo{
+    display: flex; 
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    top: 40px;
+    left: 1000px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    margin: 20px 0;
+    
+    border: 1px solid #000000;
+    
+}
+
+.imagenMuñekolas {
+    width: 80%;
+    max-width: 560px;
+    height: auto;
+}
+
+.cuadroTexto {
+    
+    width: 360px;
+    max-width: 350px;
+    height: 85%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #0000;
+}
+
+.boton1 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(10, 56, 113, 1);
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 10px;
+}
+.boton2 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(22, 69, 126, 0.453);
+    color: #FFFFFF; 
+    cursor: pointer;
+    margin: 10px;
+    
+}
+
+.boton1:hover {
+    background-color: #74ff34;
+    
+}
+
+.boton2:hover {
+    background-color: #490202cb;
+}
